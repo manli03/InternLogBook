@@ -1,0 +1,12 @@
+{
+  "name": "intern-log-book",
+  "version": "1.0.0",
+  "description": "A simple logbook system for interns.",
+  "scripts": {
+    "build": "tailwindcss -i ./css/input.css -o ./css/output.css --minify",
+    "watch": "tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
